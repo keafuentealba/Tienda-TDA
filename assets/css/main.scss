@@ -1,3 +1,15 @@
+body {
+  margin: 0%;
+}
+
+body {
+  font-family: "Old Standard TT", serif;
+}
+
+p, a {
+  font-family: "Raleway", sans-serif;
+}
+
 header {
   display: inline-block;
   position: relative;
@@ -8,9 +20,11 @@ header {
   width: 50%;
   height: 100%;
 }
+
 .header-image img {
   position: absolute;
   width: 30%;
   right: 0%;
-
 }
+
+/*# sourceMappingURL=main.scss.map */
