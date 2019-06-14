@@ -1,0 +1,35 @@
+.newsleter {
+    position: relative;
+}
+.newsleter .newsleter-box {
+    background-color: $smoky-black;
+    position: absolute;
+    top: 0%;
+    padding: 1% 2% 3% 3%;
+     
+}
+
+.newsleter h2{
+    padding-top: 2%;
+    font-family: $old-standard;
+    font-weight: $bold;
+    font-size: $xx-large;
+    
+}
+
+.newsleter p{
+    font-family: $old-standard;
+    font-weight: $regular;
+    margin: 0%;
+}
+
+.newsleter button {
+    display: inline-block;
+    position: absolute;
+    width: 37%;
+    top: 38%;
+    left: 77.4%;
+    transform: rotate(90deg);
+    box-sizing: border-box;
+
+}

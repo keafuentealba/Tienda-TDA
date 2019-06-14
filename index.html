@@ -9,24 +9,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <nav class=" navigation navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand bg-dark" href="#">XDA</a>
+    <nav class="navigation navbar navbar-expand-lg navbar-light bg-light p-2">
+      <a class="navigation-logo navbar-brand  href="#">XDA</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Mujer <span class="sr-only">(current)</span></a>
+          <li class="nav-item active mr-5">
+            <a class="nav-link " href="#">Mujer <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item mr-5">
             <a class="nav-link" href="#">Hombre <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item mr-5">
             <a class="nav-link" href="#">Accesorios <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item mr-5">
             <a class="nav-link" href="#">Blog <span class="sr-only">(current)</span></a>
           </li>
         </ul>
@@ -35,23 +35,27 @@
     </nav>
     <header class="header container-fluid ">
       <div class="row">
-        <div class="header-text col-md-4">
+        <div class="header-text col-md-5">
           <h1>TENDENCIAS PARA TI</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-          <button type="button" name="button"></button>
+          <button type="button" class="btn btn-outline-secondary">Secondary</button>
         </div>
         <div class="header-image col-md-7">
 
         </div>
       </div>
     </header>
-
-    <section>
-      <h2>Newsleter</h2>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+    <section class="newsleter container-fluid">
+      <div class="row"> 
+        <div class="newsleter-box col-md-5"> 
+          <h2 class=" pb-1">Newsleter</h2>
+          <p>Correo Electrónico</p>
+          <form class="form-inline pb-4">
+            <input class="form-control " type="search" placeholder="Ingresa tu correo electrónico" aria-label="Search">
+          </form>
+          <button type="button" class="btn-rotate btn btn-lg bg-light">Subscribir</button>
+        </div>
+      </div>  
     </section>
   </body>
 </html>
