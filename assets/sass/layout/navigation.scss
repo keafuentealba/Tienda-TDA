@@ -1,5 +1,6 @@
 .navigation  a {
   font-weight: $bold;
+  
  }
  
 .navigation .navigation-logo {
@@ -7,6 +8,17 @@
    font-family: $old-standard;
    font-weight: $bold;
    font-size: $xx-large;
-   color: #ffffff;
+   
 
 }
+.navbar-brand
+    {
+        position: absolute;
+        height: 100%;
+        left: 0;
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+        
+    }
+    
